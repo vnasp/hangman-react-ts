@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Caveat Brush';
+  src: url('fonts/CaveatBrush-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background : url('./assets/img/bg.png');
+  background-size: cover;
+  font-family: 'Caveat Brush', sans-serif;
+  font-size: 24px;
+  color: white;
+
+}
+button {
+  font-family: 'Caveat Brush', cursive;
+  background-color: transparent;
+  color: white;
+  border: 2px solid grey;
+  border-radius: 8px;
+  padding: 0.5rem 1.25rem;
+  font-size: 24px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000000;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+  margin: 0.75rem;
+}
+
+button:hover {
+  background-color: rgba(1, 162, 255, 1);
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
