@@ -1,13 +1,13 @@
-import image0 from "./../assets/0.png";
-import image1 from "./../assets/1.png";
-import image2 from "./../assets/2.png";
-import image3 from "./../assets/3.png";
-import image4 from "./../assets/4.png";
-import image5 from "./../assets/5.png";
-import image6 from "./../assets/6.png";
-import image7 from "./../assets/7.png";
-import image8 from "./../assets/8.png";
-import image9 from "./../assets/9.png";
+import image0 from "/assets/game/0.png";
+import image1 from "/assets/game/1.png";
+import image2 from "/assets/game/2.png";
+import image3 from "/assets/game/3.png";
+import image4 from "/assets/game/4.png";
+import image5 from "/assets/game/5.png";
+import image6 from "/assets/game/6.png";
+import image7 from "/assets/game/7.png";
+import image8 from "/assets/game/8.png";
+import image9 from "/assets/game/9.png";
 
 const images: string[] = [
   image0,

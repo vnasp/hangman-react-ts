@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Caveat Brush';
-  src: url('fonts/CaveatBrush-Regular.ttf') format('truetype');
+  src: url('/assets/fonts/CaveatBrush-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,7 +13,7 @@
   text-align: center;
 }
 body {
-  background : url('./assets/img/bg.png');
+  background : url('/assets/img/bg.png');
   background-size: cover;
   font-family: 'Caveat Brush', sans-serif;
   font-size: 24px;
